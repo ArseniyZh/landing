@@ -1,0 +1,132 @@
+html {
+    background: url(../img/Background.png) no-repeat;
+    background-size: 1920px 1100px ;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 134px;
+    height: 114px;
+    margin: 58px 0 0 128px;
+}
+
+.navbar {
+    margin: 90px 117px 0 0;
+}
+.navbar .menu {
+    display: flex;
+    width: 586px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.navbar .menu .menu_item a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border: solid 1px;
+    border-radius: 50px;
+    padding: 10px;
+    transition: 0.5s;
+}
+.navbar .menu .menu_item a:hover {
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.1s;
+}
+
+.main_text {
+    display: flex;
+}
+.titles {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 50px;
+    margin: 50px 0 0 128px;
+}
+.titles .subtitle {
+    font-weight: 400;
+    margin: 0 0 0 0;
+}
+.titles .title {
+    font-weight: 500;
+    margin: 0 0 0 0;
+    line-height: 100px;
+}
+
+.buy_btn {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    padding: 5px 5px 5px 5px;
+    width: 200px;
+    text-decoration: none;
+    color: white;
+    margin: 20px 0 0 128px;
+    border: solid 2px white;
+    border-radius: 25px;
+    transition: 0.1s;
+}
+.buy_btn:hover {
+    padding: 5px 25px 5px 25px;
+    margin: 20px 0 0 108px;
+    transition: 0.5s;
+}
+
+.discount {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 500px;
+    font-size: 50px;
+    color: white;
+    text-align: right;
+    margin: 85px 0 0 565px;
+}
+.discount .d50 {
+    display: block;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 50px;;
+}
+.discount .discr {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    width: 300px;
+    margin: 30px 0 0 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1645px;
+    margin: 200px 0 0 128px;
+}
+
+.site {
+    display: block;
+    width: 250px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+}
+.icons .icons_item {
+    width: 35px;
+}
